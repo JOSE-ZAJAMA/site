@@ -386,6 +386,26 @@ footer {
     padding: 20px;
 }
 
+/* Text stories */
+
+.container_stories .col p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Audio controllers */
+
+.audio-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.audio-right audio {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 /* Adaptable (Responsive) */
 
 @media screen and (max-width: 400px) {
